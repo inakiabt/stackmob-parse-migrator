@@ -1,0 +1,19 @@
+{
+  "name": "stackmob-parse-migrator",
+  "description": "Stackmob to Parse data migration tool",
+  "version": "0.0.1",
+  "author": "Iñaki Abete <inakiabt@gmail.com>",
+  "engines": { "node": "*" },
+  "main": "migrator.js",
+  "dependencies": {
+    "parse": "*",
+    "fields": "*",
+    "underscore": "*",
+    "optimist": "*",
+    "stackmob-nodejs": "https://github.com/inakiabt/stackmob-nodejs/tarball/master"
+  },
+  "repository":   {
+    "type": "git",
+    "url": "git://github.com/inakiabt/stackmob-parse-migrator.git"
+  }
+}
